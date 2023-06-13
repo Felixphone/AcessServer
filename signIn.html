@@ -1,0 +1,47 @@
+<!DOCTYPE html> <link rel="stylesheet" href="signInStyles.css">
+
+<html>
+ 
+<head>
+  
+</head>
+
+<body> 
+    
+    <div class="content">
+        <form action="/createacount.php" class="form">
+          <div class="container">
+            <h1>Sign in to your acount:</h1>
+            <hr>
+            
+            <label for="email"><b>Username:</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+      
+            <label for="email"><b>Email:</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b>Password:</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>    
+            
+            <hr>
+            
+            <h4><input type="checkbox" class="staysignedin"> Stay Signed In</h4>
+
+            <div class="buttons">
+
+              <a href="index.html"> <button type="button" class="cancelbtn">Cancel</button> </a>
+              <a href="#"> <button type="submit" class="signinbtn">Sign In</button> </a>
+
+            </div>
+            
+          </div>
+        </form>
+      
+        
+        
+        <h4>Not got an acount? <a href="signUp.html" class="link">Create One</a></h4>
+        <h4>Forgot your password? <a href="signUp.html" class="link">Reset It</a></h4>
+    
+    </div>
+
+</html>
